@@ -1,6 +1,6 @@
 function primeNumber(a) {
     let n = 0;
-    for (let i = a; i > 1; i--) {
+    for (let i = 2; i < a; i++) {
         if (a % i === 0) {
             n++;
         }
