@@ -1,5 +1,7 @@
 function arrayStringify(a) {
-  /* Your code here */
+  for (let i = 0; i < a.length; i++) {
+    console.log(a[i].toString());
+}
 }
 
 const c1 = [1, 2, 3];
