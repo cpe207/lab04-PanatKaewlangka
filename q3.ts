@@ -5,8 +5,8 @@ function primeNumber(a) {
           n++;
       }
   }
-  if (n > 0) return "No";
-  else return "Yes";
+  if (n > 0) return "NO";
+  else return "YES";
 }
 var d1 = 10;
 var d2 = 29;
@@ -15,3 +15,4 @@ console.log(primeNumber(d1));
 console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 module.exports = primeNumber;
+//660610776 ปาณัท แก้วลังกา
